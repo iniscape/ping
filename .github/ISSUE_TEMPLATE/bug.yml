@@ -1,0 +1,54 @@
+name: Bug report
+description: Something does not work as it should.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If you know them.
+      placeholder: |
+        1. Turn Wi-Fi off
+        2. Hover over the tray icon
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Shown in About.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Linux
+        - Windows
+    validations:
+      required: true
+  - type: input
+    id: osversion
+    attributes:
+      label: OS version and desktop
+      placeholder: "macOS 15.7, Ubuntu 24.04 with GNOME, Windows 11 25H2, …"
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: |
+        The lines from around the time it happened, from the log file: About → Show Log
+        shows it, or find it at macOS `~/Library/Logs/Iniscape/ping.log`, Linux `~/.local/state/iniscape/ping.log`,
+        Windows `%LOCALAPPDATA%\Iniscape\ping.log`. It holds your local and internet IP
+        addresses; edit them out if you like.
+      render: text

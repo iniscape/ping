@@ -1,0 +1,15 @@
+name: Feature request
+description: An idea for the app.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Requests are read and noted, then closed, as there is no public backlog.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What you would like the app to do, and why it would help you.
+    validations:
+      required: true

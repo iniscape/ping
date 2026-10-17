@@ -90,5 +90,6 @@ See [CHANGELOG.md](CHANGELOG.md).
 ## Licence
 
 Copyright (c) 2026 Iniscape. All rights reserved. The Qt libraries that
-come with the app are licensed under the LGPLv3; see the About dialog.
-The licence texts come with the app.
+come with the app are licensed under the LGPLv3; see Licenses in the
+About dialog, which also lists the other third-party code. The licence
+texts come with the app.

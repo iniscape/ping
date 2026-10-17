@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1
+
+Changes:
+
+- Show available updates in place of Check for Updates.
+- About dialog content update.
+
 ## 1.0.0
 
 Changes:

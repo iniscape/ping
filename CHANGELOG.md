@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2
+
+Changes:
+
+- Use dedicated folders for logs and settings.
+
 ## 1.0.1
 
 Changes:

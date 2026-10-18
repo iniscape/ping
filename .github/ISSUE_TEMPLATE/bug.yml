@@ -48,7 +48,7 @@ body:
       label: Log
       description: |
         The lines from around the time it happened, from the log file: About → Show Log
-        shows it, or find it at macOS `~/Library/Logs/Iniscape/ping.log`, Linux `~/.local/state/iniscape/ping.log`,
-        Windows `%LOCALAPPDATA%\Iniscape\ping.log`. It holds your local and internet IP
-        addresses; edit them out if you like.
+        shows it, or find it at macOS `~/Library/Logs/Iniscape/Ping/ping.log`, Linux
+        `~/.local/state/iniscape-ping/ping.log`, Windows `%LOCALAPPDATA%\Iniscape\Ping\ping.log`.
+        It holds your local and internet IP addresses; edit them out if you like.
       render: text

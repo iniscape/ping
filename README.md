@@ -48,25 +48,20 @@ Requirements: macOS 12 or later on Apple silicon, Linux x86_64 with glibc
 
 ## Privacy
 
-No telemetry, no account, no tracking. Each check, every 30 seconds while
-online (more often while not, and at once after a network change), makes:
+Iniscape Ping does not collect, share or sell any personal data. There is
+no account, and no built-in analytics, telemetry, crash reporting or
+advertising of any kind.
 
-- one small exchange with your router (the default gateway),
-- one DNS lookup of `one.one.one.one` through your own DNS server,
-- one TCP connection to `1.1.1.1` (Cloudflare) on port 443, and only if
-  that fails, to `8.8.8.8` (Google).
+To show whether you are online and its latency, the app checks that your
+router and your DNS server respond, and that it can reach well-known
+public servers from Cloudflare and Google. With Look Up Internet IP
+enabled in Settings, the app gets your internet IP address from a public
+service by Cloudflare, or from ipify if that is unavailable. With Check
+for Updates Automatically enabled in Settings, it checks GitHub, where
+its releases are published, once a day for a new version.
 
-For the latency, while online it also pings `1.1.1.1` every 5 seconds
-(`8.8.8.8` on a network where `1.1.1.1` does not answer).
-
-The internet IP address is obtained from `https://ipv4.icanhazip.com`
-(Cloudflare), or `https://api.ipify.org` if that fails, when the network
-changes and every 10 minutes while online. **Look Up Internet IP** in
-Settings turns this off.
-
-Once a day the app checks GitHub for a new release. It does not prompt
-or download anything; the menu shows **Update Available**, and the update
-downloads and installs only when you choose it there.
+Everything else the app keeps, its settings and its log, stays on your
+computer, and uninstalling removes it.
 
 ## Reporting a bug
 
@@ -75,9 +70,9 @@ Open an issue with the
 It asks for the version (shown in About), your OS and the log: About →
 **Show Log** shows the file, or find it at:
 
-- macOS: `~/Library/Logs/Iniscape/ping.log`
-- Linux: `~/.local/state/iniscape/ping.log`
-- Windows: `%LOCALAPPDATA%\Iniscape\ping.log`
+- macOS: `~/Library/Logs/Iniscape/Ping/ping.log`
+- Linux: `~/.local/state/iniscape-ping/ping.log`
+- Windows: `%LOCALAPPDATA%\Iniscape\Ping\ping.log`
 
 Feature requests are welcome through the same page. They are read and
 noted, then closed, as there is no public backlog. For security issues,

@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.3
+
+Changes:
+
+- New app icon design.
+- Add a Privacy window to the About dialog.
+- Add website and issue tracker links to About.
+
 ## 1.0.2
 
 Changes:

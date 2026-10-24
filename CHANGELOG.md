@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.5
+
+Changes:
+
+- Fix a dark tray icon on GNOME in light mode.
+
 ## 1.0.4
 
 Changes:

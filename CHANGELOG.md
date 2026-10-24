@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.4
+
+Changes:
+
+- Restore the previous app icon.
+- Fix an outdated app icon on the Windows taskbar.
+- Fix a crash at start on a fresh Ubuntu 26.04.
+
 ## 1.0.3
 
 Changes:

@@ -13,7 +13,7 @@ and IP address.
 
 **Windows (PowerShell)**
 
-    irm https://github.com/iniscape/ping/releases/latest/download/install.ps1 | iex
+    powershell -ExecutionPolicy Bypass -c 'irm https://github.com/iniscape/ping/releases/latest/download/install.ps1 -OutFile $env:TEMP\install.ps1; & $env:TEMP\install.ps1'
 
 Requirements: macOS 12 or later on Apple silicon, Linux x86_64 with glibc
 2.28 or later (such as Ubuntu 20.04 or RHEL 8 and newer) or Windows 10 or 11 x64.
@@ -26,7 +26,7 @@ Requirements: macOS 12 or later on Apple silicon, Linux x86_64 with glibc
 
 **Windows (PowerShell)**
 
-    irm https://github.com/iniscape/ping/releases/latest/download/uninstall.ps1 | iex
+    powershell -ExecutionPolicy Bypass -c 'irm https://github.com/iniscape/ping/releases/latest/download/uninstall.ps1 -OutFile $env:TEMP\uninstall.ps1; & $env:TEMP\uninstall.ps1'
 
 ## Notes
 

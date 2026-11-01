@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.6
+
+Changes:
+
+- Match the macOS app icon size to other apps.
+
 ## 1.0.5
 
 Changes:

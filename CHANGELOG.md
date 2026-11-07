@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.7
+
+Changes:
+
+- Show the tray icon light on a dark Windows taskbar.
+
 ## 1.0.6
 
 Changes:

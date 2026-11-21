@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.8
+
+Changes:
+
+- Show the full reason when a Linux update fails.
+- Fix a crash on macOS after days of running.
+
 ## 1.0.7
 
 Changes:
